@@ -2,7 +2,7 @@ html {
 	display: flex;
   	align-items: center;
   	justify-content: space-around;
-	background-color: #313244;
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('evening-sky.png');
 	display: flex;
 	height: 100%;
 }
@@ -17,7 +17,6 @@ a {
 	border: 4px solid #11111b;
 	background-color: #181825;
 	right: 80%;
-	position: absolute;
 	top: 35.4%;
 	right: 30%;
 }
@@ -32,18 +31,8 @@ h2 {
 	font-family: Comic Sans MS;
 	color: #cdd6f4;
 	text-align: center;
-	position: absolute;
 	top: 20%;
 	right: 47%;
-	text-shadow: 0 0 2px #000;
+	text-shadow: 0 0 4px #000;
 }
 
-img {
-	height: 29.5%;  
-	width: 30%;
-	border: 3px solid #11111b;
-	display: block;
-	position: absolute;
-	top: 35.3%;
-	right: 52%;
-}
